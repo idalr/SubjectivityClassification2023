@@ -1,0 +1,129 @@
+06.04
+trained on finance
+trained on finance (1986,1996,2005)
+test on other topics (1986,1996,2005)
+
+argfeat3 - reproduction
+Test score: 0.2867274582386017
+Test accuracy: 0.89682537317276
+Test f1 score: 0.8959914445877075
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+Test score: 0.3765268325805664
+Test accuracy: 0.8437849879264832
+Test f1 score: 0.8418418765068054
+Evaluating: /data/ProcessedNYT/all_education.txt
+Test score: 0.35037925839424133
+Test accuracy: 0.8557187914848328
+Test f1 score: 0.8568533062934875
+Evaluating: /data/ProcessedNYT/all_law.txt
+Test score: 0.34076452255249023
+Test accuracy: 0.8664994239807129
+Test f1 score: 0.8677422404289246
+Evaluating: /data/ProcessedNYT/all_military.txt
+Test score: 0.3114025592803955
+Test accuracy: 0.8895002007484436
+Test f1 score: 0.890720009803772
+Evaluating: /data/ProcessedNYT/all_politics.txt
+Test score: 0.31284430623054504
+Test accuracy: 0.8821515440940857
+Test f1 score: 0.8823726177215576
+
+argfeat6
+Test score: 0.33933165669441223
+Test accuracy: 0.8269841074943542
+Test f1 score: 0.82762610912323
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+Test score: 0.4616084396839142
+Test accuracy: 0.7592385411262512
+Test f1 score: 0.7597774267196655
+Evaluating: /data/ProcessedNYT/all_education.txt
+Test score: 0.41507479548454285
+Test accuracy: 0.7681007385253906
+Test f1 score: 0.7685748338699341
+Evaluating: /data/ProcessedNYT/all_law.txt
+Test score: 0.4404474198818207
+Test accuracy: 0.7513935565948486
+Test f1 score: 0.7522429823875427
+Evaluating: /data/ProcessedNYT/all_military.txt
+Test score: 0.3610227108001709
+Test accuracy: 0.8092617988586426
+Test f1 score: 0.8122819662094116
+Evaluating: /data/ProcessedNYT/all_politics.txt
+Test score: 0.37747976183891296
+Test accuracy: 0.7936938405036926
+Test f1 score: 0.7946619987487793
+
+sent_sum
+Test score: 0.421027272939682
+Test accuracy: 0.8209191560745239
+Test f1 score: 0.8193548917770386
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+56/56 [==============================] - 0s 6ms/step - loss: 0.4517 - accuracy: 0.7637 - f1_m: 0.7637
+Evaluating: /data/ProcessedNYT/all_education.txt
+60/60 [==============================] - 0s 6ms/step - loss: 0.4468 - accuracy: 0.7752 - f1_m: 0.7741
+Evaluating: /data/ProcessedNYT/all_law.txt
+113/113 [==============================] - 1s 6ms/step - loss: 0.5004 - accuracy: 0.7567 - f1_m: 0.7574
+Evaluating: /data/ProcessedNYT/all_military.txt
+69/69 [==============================] - 0s 6ms/step - loss: 0.4715 - accuracy: 0.7914 - f1_m: 0.7914
+Evaluating: /data/ProcessedNYT/all_politics.txt
+220/220 [==============================] - 1s 6ms/step - loss: 0.4879 - accuracy: 0.7841 - f1_m: 0.7838
+
+sent_compound
+Test score: 0.44856879115104675
+Test accuracy: 0.8082408905029297
+Test f1 score: 0.8084918260574341
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+56/56 [==============================] - 0s 3ms/step - loss: 0.5129 - accuracy: 0.7368 - f1_m: 0.7372
+Evaluating: /data/ProcessedNYT/all_education.txt
+60/60 [==============================] - 0s 4ms/step - loss: 0.5157 - accuracy: 0.7296 - f1_m: 0.7294
+Evaluating: /data/ProcessedNYT/all_law.txt
+113/113 [==============================] - 0s 4ms/step - loss: 0.5564 - accuracy: 0.7352 - f1_m: 0.7373
+Evaluating: /data/ProcessedNYT/all_military.txt
+69/69 [==============================] - 0s 4ms/step - loss: 0.4947 - accuracy: 0.7983 - f1_m: 0.8007
+Evaluating: /data/ProcessedNYT/all_politics.txt
+220/220 [==============================] - 1s 4ms/step - loss: 0.5211 - accuracy: 0.7773 - f1_m: 0.7783
+
+pos_count
+Test score: 0.4937295913696289
+Test accuracy: 0.8082408905029297
+Test f1 score: 0.8084918260574341
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+56/56 [==============================] - 0s 3ms/step - loss: 0.5822 - accuracy: 0.7368 - f1_m: 0.7372
+Evaluating: /data/ProcessedNYT/all_education.txt
+60/60 [==============================] - 0s 3ms/step - loss: 0.5915 - accuracy: 0.7296 - f1_m: 0.7294
+Evaluating: /data/ProcessedNYT/all_law.txt
+113/113 [==============================] - 0s 3ms/step - loss: 0.6323 - accuracy: 0.7352 - f1_m: 0.7373
+Evaluating: /data/ProcessedNYT/all_military.txt
+69/69 [==============================] - 0s 3ms/step - loss: 0.5042 - accuracy: 0.7983 - f1_m: 0.8007
+Evaluating: /data/ProcessedNYT/all_politics.txt
+220/220 [==============================] - 1s 3ms/step - loss: 0.5589 - accuracy: 0.7773 - f1_m: 0.7783
+
+pos_padded
+Test score: 0.4889063537120819
+Test accuracy: 0.8082408905029297
+Test f1 score: 0.8084918260574341
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+56/56 [==============================] - 23s 406ms/step - loss: 0.5899 - accuracy: 0.7368 - f1_m: 0.7372
+Evaluating: /data/ProcessedNYT/all_education.txt
+60/60 [==============================] - 26s 426ms/step - loss: 0.6002 - accuracy: 0.7296 - f1_m: 0.7294
+Evaluating: /data/ProcessedNYT/all_law.txt
+113/113 [==============================] - 50s 437ms/step - loss: 0.5921 - accuracy: 0.7352 - f1_m: 0.7373
+Evaluating: /data/ProcessedNYT/all_military.txt
+69/69 [==============================] - 28s 412ms/step - loss: 0.5030 - accuracy: 0.7983 - f1_m: 0.8007
+Evaluating: /data/ProcessedNYT/all_politics.txt
+220/220 [==============================] - 92s 419ms/step - loss: 0.5327 - accuracy: 0.7773 - f1_m: 0.7783
+
+pos_2000
+Test score: 0.4864695370197296
+Test accuracy: 0.8121019005775452
+Test f1 score: 0.8128124475479126
+Evaluating: /data/ProcessedNYT/all_medicine.txt
+56/56 [==============================] - 10s 176ms/step - loss: 0.5808 - accuracy: 0.7361 - f1_m: 0.7368
+Evaluating: /data/ProcessedNYT/all_education.txt
+60/60 [==============================] - 11s 183ms/step - loss: 0.5890 - accuracy: 0.7290 - f1_m: 0.7286
+Evaluating: /data/ProcessedNYT/all_law.txt
+112/112 [==============================] - 20s 174ms/step - loss: 0.5841 - accuracy: 0.7337 - f1_m: 0.7343
+Evaluating: /data/ProcessedNYT/all_military.txt
+68/68 [==============================] - 13s 184ms/step - loss: 0.5060 - accuracy: 0.7966 - f1_m: 0.7983
+Evaluating: /data/ProcessedNYT/all_politics.txt
+219/219 [==============================] - 38s 173ms/step - loss: 0.5315 - accuracy: 0.7763 - f1_m: 0.7773
