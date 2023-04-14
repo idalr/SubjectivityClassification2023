@@ -5,6 +5,7 @@ This repository was developed as part of the CogSys Master's project module at t
 ## Reproduction Instructions
 
 1. To reproduce the evaluation results, please run the evaluation.py file
+2. To reproduce the model training, please refer to the notebook related to the models of interest under inside the project folder
 
 ## Project description
 
