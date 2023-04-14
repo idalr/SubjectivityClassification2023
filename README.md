@@ -29,3 +29,5 @@ Weights of the trained models in 2. and 3. are stored in project/ModelWeights fo
 
 ## Results and analysis
 The results of the feature-based RNN models are stored in the project/Results, and the linguistic analysis of the NYTAC data is stored in data/LinguisticAnalysis.ipynb with the graphs in data/Images
+
+Last update: 14.04.2023
