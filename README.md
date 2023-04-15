@@ -1,6 +1,6 @@
 # SubjectivityClassification2023
 
-This repository was developed as part of the CogSys Master's project module at the University of Potsdam, Germany.
+This repository was developed as part of the CogSys Master's project module (PM1: Mining opinions and arguments) at the University of Potsdam, Germany.
 
 ## Reproduction Instructions
 
